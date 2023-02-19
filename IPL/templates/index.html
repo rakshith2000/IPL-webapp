@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block head %} {{ super() }}
+<link
+        rel="stylesheet"
+        href="{{ url_for('static', filename= 'extended_beauty.css') }}"
+/>
+{% endblock %}
+
+{% block content %}
+<center>
+<marquee width="50%" direction="left" height="50px" scrollamount="12">
+        <h1>Welcome to TATA IPL 2022 Info Tab</h1>
+    </marquee>
+    <div>
+    <img src="{{ url_for('static', filename= 'images/ipl.gif') }}"
+         alt="pushup guy"
+         height="250px"
+    >
+    </div>
+    <h3 style="font-size:25px"><br>**** TATA IPL 2022 Teams ****</h3>
+    <div>
+    <img src="{{ url_for('static', filename= 'images/IPL teams.png') }}"
+         alt="pushup guy"
+         height="250px"
+    >
+    </div>
+</center>
+{% endblock %}

@@ -1,0 +1,75 @@
+Match No,Date,Team A,Team B,Venue
+1,2022-03-26,CSK,KKR,Wankhede Stadium
+2,2022-03-27,DC,MI,Brabourne CCI
+3,2022-03-27,PBKS,RCB,DY Patil Stadium
+4,2022-03-28,GT,LSG,Wankhede Stadium
+5,2022-03-29,SRH,RR,"MCA Stadium, Pune"
+6,2022-03-30,RCB,KKR,DY Patil Stadium
+7,2022-03-31,LSG,CSK,Brabourne CCI
+8,2022-04-01,KKR,PBKS,Wankhede Stadium
+9,2022-04-02,MI,RR,DY Patil Stadium
+10,2022-04-02,GT,DC,"MCA Stadium, Pune"
+11,2022-04-03,CSK,PBKS,Brabourne CCI
+12,2022-04-04,SRH,LSG,DY Patil Stadium
+13,2022-04-05,RR,RCB,Wankhede Stadium
+14,2022-04-06,KKR,MI,"MCA Stadium, Pune"
+15,2022-04-07,LSG,DC,DY Patil Stadium
+16,2022-04-08,PBKS,GT,Brabourne CCI
+17,2022-04-09,CSK,SRH,DY Patil Stadium
+18,2022-04-09,RCB,MI,"MCA Stadium, Pune"
+19,2022-04-10,KKR,DC,Brabourne CCI
+20,2022-04-10,RR,LSG,Wankhede Stadium
+21,2022-04-11,SRH,GT,DY Patil Stadium
+22,2022-04-12,CSK,RCB,DY Patil Stadium
+23,2022-04-13,MI,PBKS,"MCA Stadium, Pune"
+24,2022-04-14,RR,GT,DY Patil Stadium
+25,2022-04-15,SRH,KKR,Brabourne CCI
+26,2022-04-16,MI,LSG,Brabourne CCI
+27,2022-04-16,DC,RCB,Wankhede Stadium
+28,2022-04-17,PBKS,SRH,Brabourne CCI
+29,2022-04-17,GT,CSK,"MCA Stadium, Pune"
+30,2022-04-18,RR,KKR,Brabourne CCI
+31,2022-04-19,LSG,RCB,DY Patil Stadium
+32,2022-04-20,DC,PBKS,"MCA Stadium, Pune"
+33,2022-04-21,MI,CSK,DY Patil Stadium
+34,2022-04-22,DC,RR,"MCA Stadium, Pune"
+35,2022-04-23,KKR,GT,DY Patil Stadium
+36,2022-04-23,RCB,SRH,Brabourne CCI
+37,2022-04-24,LSG,MI,Wankhede Stadium
+38,2022-04-25,PBKS,CSK,Wankhede Stadium
+39,2022-04-26,RCB,RR,"MCA Stadium, Pune"
+40,2022-04-27,GT,SRH,Wankhede Stadium
+41,2022-04-28,DC,KKR,Wankhede Stadium
+42,2022-04-29,PBKS,LSG,"MCA Stadium, Pune"
+43,2022-04-30,GT,RCB,Brabourne CCI
+44,2022-04-30,RR,MI,DY Patil Stadium
+45,2022-05-01,DC,LSG,Wankhede Stadium
+46,2022-05-01,SRH,CSK,"MCA Stadium, Pune"
+47,2022-05-02,KKR,RR,Wankhede Stadium
+48,2022-05-03,GT,PBKS,DY Patil Stadium
+49,2022-05-04,RCB,CSK,"MCA Stadium, Pune"
+50,2022-05-05,DC,SRH,Brabourne CCI
+51,2022-05-06,GT,MI,Brabourne CCI
+52,2022-05-07,PBKS,RR,Wankhede Stadium
+53,2022-05-07,LSG,KKR,"MCA Stadium, Pune"
+54,2022-05-08,SRH,RCB,Wankhede Stadium
+55,2022-05-08,CSK,DC,DY Patil Stadium
+56,2022-05-09,MI,KKR,DY Patil Stadium
+57,2022-05-10,LSG,GT,"MCA Stadium, Pune"
+58,2022-05-11,RR,DC,DY Patil Stadium
+59,2022-05-12,CSK,MI,Wankhede Stadium
+60,2022-05-13,RCB,PBKS,Brabourne CCI
+61,2022-05-14,KKR,SRH,"MCA Stadium, Pune"
+62,2022-05-15,CSK,GT,Wankhede Stadium
+63,2022-05-15,LSG,RR,Brabourne CCI
+64,2022-05-16,PBKS,DC,DY Patil Stadium
+65,2022-05-17,MI,SRH,Wankhede Stadium
+66,2022-05-18,KKR,LSG,DY Patil Stadium
+67,2022-05-19,RCB,GT,Wankhede Stadium
+68,2022-05-20,RR,CSK,Brabourne CCI
+69,2022-05-21,MI,DC,Wankhede Stadium
+70,2022-05-22,SRH,PBKS,Wankhede Stadium
+Qualifier 1,2022-05-24,TBA,TBA,Eden Garden
+Eliminator,2022-05-25,TBA,TBA,Eden Garden
+Qualifier 2,2022-05-27,TBA,TBA,Narendra Modi Stadium
+Final,2022-05-29,TBA,TBA,Narendra Modi Stadium

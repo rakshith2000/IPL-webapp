@@ -1,0 +1,69 @@
+{% extends "base.html" %} {% block head %} {{ super() }}
+<link
+        rel="stylesheet"
+        href="{{ url_for('static', filename= 'extended_beauty.css') }}"
+/>
+{% endblock %}
+
+{% block content %}
+<center>
+<div>
+    {% set teams = ['CSK', 'DC', 'GT', 'KKR', 'LSG', 'MI', 'PBKS', 'RCB', 'RR', 'SRH'] %}
+    {% if hint == 'All' %}
+    <a href="{{ url_for('main.displayFR', team='All') }}"
+       class="btn btn-info mb-4"
+       role="button"
+    >All</a>
+    {% else %}
+    <a href="{{ url_for('main.displayFR', team='All') }}"
+       class="btn btn-outline-info mb-4"
+       role="button"
+    >All</a>
+    {% endif %}
+
+    {% for i in teams %}
+    {% if hint == i %}
+    <a href="{{ url_for('main.displayFR', team=i) }}"
+       class="btn btn-info mb-4"
+       role="button"
+    >{{ i }}</a>
+    {% else %}
+    <a href="{{ url_for('main.displayFR', team=i) }}"
+       class="btn btn-outline-info mb-4"
+       role="button"
+    >{{ i }}</a>
+    {% endif %} {% endfor %}
+</div></center>
+<center>
+    <div>
+        <center>
+        <marquee width="40%" direction="left" height="45px" scrollamount="12">
+    <div>
+        <img src="{{ url_for('static', filename= 'images/ipl pt.gif') }}"
+                                 alt="user photo" width="50" height="40" />
+        <span style="font-size: 26px">IPL 2022 Fixtures</span>
+    </div> </marquee>
+    </center>
+    <table class="table table-hover" style="width: 1100px;" border="2">
+        <thead class="thead-dark">
+            <tr>
+                {% for cols in FR[0] %}
+              <th scope="col">{{ cols }}</th>
+              {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+        {% for i in range(length) %}
+        <tr>
+            {% for j in range(1,3) %}
+            <td><center>{{ FR[j][i] }}</center></td> {% endfor %}
+             <td>{% for t in FR[3][i].split('\n') %} <b>{{ t }}</b><br> {% endfor %}</td>
+            {% for j in range(4,7) %}
+            <td>{% for t in FR[j][i].split('\n') %} {{ t }}<br> {% endfor %}</td> {% endfor %}
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    </div>
+</center>
+{% endblock %}

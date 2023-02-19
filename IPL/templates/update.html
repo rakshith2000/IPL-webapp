@@ -1,0 +1,58 @@
+{% extends "base.html" %} {% block head %} {{ super() }}
+<link
+        rel="stylesheet"
+        href="{{ url_for('static', filename= 'extended_beauty.css') }}"
+/>
+{% endblock %}
+
+{% block content %}
+<center>
+    <br>
+<div class="container">
+    <div class="row">
+        <div class="col md-12">
+            <div class="jumbotron p-3">
+                <h5>To <u>Update</u> <b>Match Result </b></h5>
+                <form method="POST" action="/updatematch">
+      <label for="match">Enter Match Number: </label>
+      <input
+        type="number"
+        id="match"
+        name="match"
+        aria-describedby="pushupHelp"
+        placeholder="Match number"/>
+      <input type="hidden" name="hint" value="before">
+      <br>
+      <button type="submit" class="btn btn-success">Click Here</button>
+      </form>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col md-12">
+            <div class="jumbotron p-3">
+                <h5>To <u>Delete</u> <b>Match Result   </b>   </h5>
+                <botton type="button" class="btn btn-success"
+                data-toggle="modal" data-target="#mymodal">Click Here</botton>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col md-12">
+            <div class="jumbotron p-3">
+                <h5>To <u>Update</u> <b>Playoffs Teams   </b>   </h5>
+                <botton type="button" class="btn btn-success"
+                data-toggle="modal" data-target="#mymodal">Click Here</botton>
+            </div>
+        </div>
+    </div>
+</div>
+
+</center>
+{% endblock %}
